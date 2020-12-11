@@ -1,0 +1,124 @@
+/** Common styles */
+
+.aimeos .card {
+    border-radius: 2px;
+    background-color: #fafafa;
+}
+
+.aimeos .card-header {
+    background-color: #ededed;
+    border-top: 0;
+}
+
+.aimeos .card-header:first-child {
+    border-radius: 2px 2px 0 0;
+}
+
+.aimeos .btn.act-move {
+    cursor: move;
+}
+
+.aimeos .btn.act-move.fa:before {
+    content: "\f0c9";
+}
+
+.aimeos .card-tools-right {
+    right: 4px;
+    top: 4px;
+}
+
+.aimeos .card-tools-right .btn-card-header {
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    background-color: #dedede;
+}
+
+.aimeos .card-tools-right .btn-card-header:hover {
+    background-color: #c4c4c4;
+    border-color: #a6a6a6;
+}
+
+.aimeos .card-tools-more {
+    padding: 0 15px 10px 0;
+}
+
+.aimeos .card-block .advanced {
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.aimeos .card-block .advanced.collapsed {
+    border-bottom: none;
+}
+
+.aimeos .table {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .1);
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+}
+
+.aimeos table th {
+    background-color: #ededed;
+}
+
+.aimeos table th,
+.aimeos table.list-items td,
+.aimeos table.item-config td {
+    border-bottom: 1px solid #ccc;
+}
+
+.aimeos .form-group table td.input-group,
+.aimeos .form-group table td.actions {
+    padding: 0;
+    height: auto;
+}
+
+.aimeos .form-group table td {
+    padding: 0;
+}
+
+.aimeos .form-group table td.input-group {
+    padding-right: 5px;
+}
+
+.aimeos table.list-items tbody tr,
+.aimeos table.item-config tbody tr {
+    border-left: 3px solid #ccc;
+    border-right: 2px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.aimeos table .actions .btn {
+    border: 1px solid #c4c4c4;
+    border-radius: 2px;
+    background-color: #dedede;
+}
+
+.aimeos table .actions .btn:hover {
+    background-color: #c4c4c4;
+    border-color: #a6a6a6;
+}
+
+.aimeos table .list-item-new .actions .btn {
+    color: #333;
+}
+
+.aimeos .item-content .separator:hover {
+    background-color: transparent;
+}
+
+.aimeos .item-content .separator .icon {
+    height: 24px;
+    margin-bottom: 15px;
+}
+
+.aimeos .item-content .separator .icon:hover {
+    color: #000;
+}
+
+@media (min-width: 992px) {
+    .aimeos>.container-fluid>.row>div {
+        padding: 0 24px;
+    }
+}

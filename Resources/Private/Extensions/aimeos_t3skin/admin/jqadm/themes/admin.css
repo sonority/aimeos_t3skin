@@ -1,0 +1,84 @@
+/** Enable horizontal scrolling for table content  */
+
+.aimeos form.list {
+    border-radius: 2px;
+}
+
+/** Item listing */
+
+.aimeos tbody tr.list-search {
+    background-color: #ededed;
+    border-top: 2px solid #ccc;
+}
+
+.aimeos .list-items .btn.fa {
+    margin: 0;
+    padding: 5px 8px;
+}
+
+.aimeos .list-items th {
+    background-color: #ddd;
+}
+
+.aimeos .list-items th.actions {
+    background-color: #ddd;
+}
+
+.aimeos .list-items th a {
+    color: #5a5a5a;
+    font-weight: 700;
+}
+
+.aimeos .list-items th button {
+    color: #5a5a5a;
+    font-weight: 700;
+}
+
+.aimeos .list-items .sort-asc:after {
+    content: " \f106";
+}
+
+.aimeos .list-items .sort-desc:after {
+    content: " \f107";
+}
+
+.aimeos .list-item:last-child {
+    border-bottom: 2px solid #ccc;
+}
+
+/** Detail view */
+
+.aimeos .help-text {
+    font-size: 100%;
+}
+
+.aimeos table.item-config th {
+    background-color: #ededed;
+    color: #5a5a5a;
+}
+
+/** Download */
+
+.aimeos .item-download .custom-file label {
+    font-size: 12px;
+}
+
+/** Images */
+
+.aimeos .item-media .media-preview {
+    border: 1px dashed #ccc;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/** Custom Additions */
+
+input.form-control.item-overwrite,
+input.form-control.item-pricecustom {
+    width: 1rem;
+}
+
+.ui-widget {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}

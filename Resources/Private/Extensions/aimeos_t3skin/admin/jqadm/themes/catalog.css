@@ -1,0 +1,68 @@
+.aimeos .catalog-content {
+    margin-top: 2px;
+}
+
+.aimeos .catalog-content .nav-tabs {
+    justify-content: initial !important;
+    border-radius: 2px 2px 0 0;
+    background-color: #ededed;
+}
+
+.aimeos .catalog-content .nav-tabs>li+li {
+    margin-left: 2px;
+}
+
+.aimeos .catalog-content .nav-tabs .nav-link {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    transition: all .25s ease-in-out;
+}
+
+.aimeos .catalog-content .nav-tabs .nav-link:hover {
+    border-color: #d7d7d7 #d7d7d7 #ccc;
+    background: #e1e0e0;
+}
+
+.aimeos .catalog-content .nav-tabs .nav-link.active {
+    border: 1px solid #ccc;
+    border-bottom-color: #fafafa;
+    background-color: #fafafa;
+}
+
+.aimeos .catalog-content .item-meta,
+.aimeos .catalog-content .tab-content>.content-block,
+.aimeos .catalog-content .tab-content>.row.tab-pane {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-top: 0;
+}
+
+.aimeos .catalog-content .tab-content>.row.tab-pane {
+    margin-bottom: 2.5rem;
+}
+
+.aimeos .catalog-content .tab-content>.content-block {
+    padding: 10px 15px 0;
+}
+
+.aimeos .catalog-content .tab-content>.row.tab-pane {
+    padding: 10px 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.aimeos .catalog-content .tab-pane.fade {
+    transition: none;
+}
+
+.aimeos .catalog-content .item-meta {
+    border-width: 0 1px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+    display: flex;
+}
+
+.aimeos .catalog-content .item-meta small {
+    display: inline-grid;
+}

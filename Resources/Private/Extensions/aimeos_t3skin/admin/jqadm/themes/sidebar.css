@@ -1,0 +1,153 @@
+.aimeos .main-sidebar {
+    background: #151515;
+}
+
+/** Logo */
+
+.aimeos .logo {
+    background: #151515;
+}
+
+/** Sidebar */
+
+.aimeos .sidebar-wrapper {
+    background: #151515;
+}
+
+.aimeos .sidebar-menu {
+    background: #151515;
+}
+
+.aimeos .main-sidebar .separator .icon:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.aimeos .main-sidebar .icon {
+    font-size: 130%;
+}
+
+.aimeos .main-sidebar .separator,
+.aimeos .sidebar-menu>li {
+    margin-bottom: 1px;
+}
+
+.aimeos .sidebar-menu a {
+    color: #fff;
+}
+
+.aimeos .main-sidebar:hover li.active {
+    background: #151515;
+}
+
+.aimeos .main-sidebar .separator {
+    color: #fff;
+}
+
+.aimeos .main-sidebar .sidebar-menu>li.active,
+.aimeos .main-sidebar .sidebar-menu>li:hover,
+.aimeos .sidebar-menu>li.active {
+    border-left-color: #ff8700;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+}
+
+.aimeos .main-sidebar .separator {
+    background: #151515;
+}
+
+.aimeos .main-sidebar .separator .icon {
+    background: #151515;
+}
+
+/** Tree Menu (sub menu) */
+
+.aimeos .sidebar-menu li .tree-menu-wrapper {
+    background: #151515;
+    -webkit-transition: visibility 0s ease 0.15s,
+        left 0.15s ease-in-out,
+        -webkit-transform 0.15s ease-in-out;
+    transition: visibility 0s ease 0.15s,
+        left 0.15s ease-in-out,
+        -webkit-transform 0.15s ease-in-out;
+    -o-transition: transform 0.15s ease-in-out,
+        visibility 0s ease 0.15s,
+        left 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out,
+        visibility 0s ease 0.15s,
+        left 0.15s ease-in-out;
+    transition: transform 0.15s ease-in-out,
+        visibility 0s ease 0.15s,
+        left 0.15s ease-in-out,
+        -webkit-transform 0.15s ease-in-out;
+}
+
+.aimeos .sidebar-menu li:hover .tree-menu-wrapper {
+    -webkit-transition: visibility 0s ease-in-out 0s, -webkit-transform .15s ease-in-out;
+    transition: visibility 0s ease-in-out 0s, -webkit-transform .15s ease-in-out;
+    -o-transition: transform .15s ease-in-out, visibility 0s ease-in-out 0s;
+    transition: transform .15s ease-in-out, visibility 0s ease-in-out 0s;
+    transition: transform .15s ease-in-out, visibility 0s ease-in-out 0s, -webkit-transform .15s ease-in-out;
+}
+
+.aimeos .sidebar-menu .tree-menu-wrapper .menu-header {
+    background: #151515;
+}
+
+.aimeos .sidebar-menu li .tree-menu {
+    background: #151515;
+}
+
+.aimeos .sidebar-menu li .tree-menu a {
+    border-left-color: transparent;
+    color: #ccc;
+}
+
+.aimeos .sidebar-menu li .tree-menu li:hover,
+.aimeos .sidebar-menu li .tree-menu li.active {
+    border-left-color: #ff8700;
+    background: rgba(255, 255, 255, .2);
+    color: #fff;
+}
+
+.aimeos .sidebar-menu li .tree-menu li:hover a {
+    color: #fff;
+}
+
+/** Toggle nav items texts in moble state */
+
+.aimeos .toggle-nav-items-texts {
+    background: #151515;
+}
+
+/** Desktop state only */
+
+@media (min-width: 992px) {
+    .aimeos .main-sidebar .title {
+        font-size: 100%;
+    }
+}
+
+/** Fontawesome Icons */
+
+.aimeos .main-sidebar .separator .more:before,
+.aimeos .main-sidebar .separator .less:before,
+.aimeos .toggle-nav-items-texts .icon:before {
+    color: #fff;
+}
+
+/** Scrollbar styles for webkit browsers */
+
+.aimeos .main-sidebar ::-webkit-scrollbar {
+    background-color: #292929;
+}
+
+.aimeos .main-sidebar ::-webkit-scrollbar-thumb {
+    background-color: #555;
+    outline: 1px solid rgba(255, 135, 0, 0.35);
+}
+
+/** Scrollbar styles for Firefox */
+
+.aimeos .main-sidebar .sidebar-wrapper {
+    scrollbar-color: rgba(255, 135, 0, 0.65) transparent;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "sonority/aimeos-t3skin",
+  "type": "typo3-cms-extension",
+  "description": "TYPO3 Backend-Skin for Aimeos-Shops",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "aimeos",
+    "shop"
+  ],
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://www.sonority.at",
+  "authors": [
+    {
+      "name": "Stephan Kellermayr",
+      "email": "stephan.kellermayr@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5 || ^10.9",
+    "aimeos/aimeos-typo3": "^20"
+  },
+  "replace": {
+    "typo3-ter/aimeos-t3skin": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "aimeos_t3skin"
+    }
+  }
+}

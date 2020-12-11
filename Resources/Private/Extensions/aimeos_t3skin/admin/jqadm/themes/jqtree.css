@@ -1,0 +1,28 @@
+ul.jqtree-tree .jqtree-title {
+    color: #333;
+}
+
+ul.jqtree-tree li.jqtree-ghost span.jqtree-circle {
+    border: solid 2px #ff8700;
+}
+
+ul.jqtree-tree li.jqtree-ghost span.jqtree-line {
+    background-color: #ff8700;
+}
+
+ul.jqtree-tree span.jqtree-border {
+    border: solid 2px #ff8700;
+}
+
+ul.jqtree-tree .jqtree-element {
+    padding: 6px 12px;
+}
+
+ul.jqtree-tree .jqtree-element:hover,
+ul.jqtree-tree li.jqtree-selected>.jqtree-element {
+    border-left: 3px solid #ff8700;
+}
+
+ul.jqtree-tree .jqtree-moving>.jqtree-element .jqtree-title {
+    outline: dashed 1px #ff8700;
+}

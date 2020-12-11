@@ -1,0 +1,32 @@
+{
+  "projectName": "aimeos_t3skin",
+  "licenseText": "proprietary",
+  "pkgs": [{
+    "name": "Aimeos t3skin CSS",
+    "file": "aimeos_t3skin.css",
+    "isDebug": true,
+    "fileIncludes": [{
+      "text": "jqtree.css",
+      "path": "themes/"
+    },{
+      "text": "bootstrap.css",
+      "path": "themes/"
+    },{
+      "text": "sidebar.css",
+      "path": "themes/"
+    },{
+      "text": "nav.css",
+      "path": "themes/"
+    },{
+      "text": "common.css",
+      "path": "themes/"
+    },{
+      "text": "admin.css",
+      "path": "themes/"
+    },{
+      "text": "catalog.css",
+      "path": "themes/"
+    }]
+  }],
+  "resources" : []
+}
