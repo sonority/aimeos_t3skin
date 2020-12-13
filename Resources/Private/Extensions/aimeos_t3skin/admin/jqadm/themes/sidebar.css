@@ -1,4 +1,5 @@
 .aimeos .main-sidebar {
+    color: #fff;
     background: #151515;
 }
 
@@ -79,6 +80,8 @@
         visibility 0s ease 0.15s,
         left 0.15s ease-in-out,
         -webkit-transform 0.15s ease-in-out;
+    margin-left: -5px;
+    padding-left: 5px;
 }
 
 .aimeos .sidebar-menu li:hover .tree-menu-wrapper {
