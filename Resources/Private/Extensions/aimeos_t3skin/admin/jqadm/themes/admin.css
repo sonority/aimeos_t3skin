@@ -11,6 +11,10 @@
     border-top: 2px solid #ccc;
 }
 
+.aimeos .list-items {
+    margin-bottom: 10px;
+}
+
 .aimeos .list-items .btn.fa {
     margin: 0;
     padding: 5px 8px;
