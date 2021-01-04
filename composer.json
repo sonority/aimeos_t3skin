@@ -18,7 +18,7 @@
     }
   ],
   "require": {
-    "typo3/cms-core": "^9.5 || ^10.9",
+    "typo3/cms-core": "^9.5 || ^10.4",
     "aimeos/aimeos-typo3": "^20"
   },
   "replace": {
